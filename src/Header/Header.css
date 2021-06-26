@@ -1,0 +1,39 @@
+
+.header {
+    top: 0;
+    left: 0;
+    padding-top:10px;
+    background-color: #3f51b5;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .links, .linkOne, .linkTwo, .linkThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    text-decoration: none;
+    color:white;
+    font-weight: normal;
+    font-size: 15px;
+  }
+
+  .linkSuper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    text-decoration: none;
+    color:rgb(190, 186, 186);
+    font-weight: normal;
+    font-size: 15px;
+  }

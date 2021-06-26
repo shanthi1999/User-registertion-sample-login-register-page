@@ -1,0 +1,194 @@
+/* .App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.errormessage {
+  font-size: 14px;
+  color: maroon;
+}
+h5 span {
+  color: rgb(192, 36, 36);
+}
+.innerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max-width;
+  border: 1px solid #e5e5e5;
+  margin: 30px 0px;
+  padding: 25px 0px;
+}
+.emailDiv {
+  padding: 25px 0px;
+}
+h5 {
+  color: #33444d;
+  font-size: 17px;
+}
+.buttons {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  border: 0px;
+  background-color: teal;
+  height: 50px;
+}
+.buttons:hover {
+  background-color: #008b8b;
+}
+
+@media screen and (max-width: 600px) {
+  h5 {
+    color: #33444d;
+    font-size: 13px;
+  }
+  .buttons {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 350px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border: 0px;
+    background-color: teal;
+    height: 50px;
+  }
+  .userName {
+    padding: 15px;
+    width: 250px !important;
+    font-size: 16px;
+
+    border: 1px solid #33444d;
+    border-radius: 5px;
+  }
+}
+.userName {
+  padding: 15px;
+  width: 400px;
+  font-size: 16px;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+.userName:focus {
+  border-color: #66afe9;
+  border-top-color: #66afe9;
+  border-left-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.buttonDisbale {
+  background: rgb(171, 194, 194);
+  pointer-events: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #3f3333;
+  border: 0px;
+  height: 50px;
+}
+.btnForget {
+  text-decoration: none;
+  color: #0c4574;
+} */
+
+.userName {
+  padding: 15px;
+  width: 250px !important;
+  font-size: 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+.userName:focus {
+  border-color: #66afe9;
+  border-top-color: #66afe9;
+  border-left-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+h4{
+  margin:10px;
+}
+.errormessage {
+  font-size: 14px;
+  color: maroon;
+}
+p{
+  margin: 10px 0 20px;
+}
+h4 span {
+  color: rgb(192, 36, 36);
+}
+
+.buttons {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  border: 0px;
+  background-color: #3f51b5;
+  height: 50px;
+}
+.buttons:hover {
+  background-color: #3f51b5;
+}
+.buttonDisbale {
+  background: #a1aadb;
+  pointer-events: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #3f3333;
+  border: 0px;
+  height: 50px;
+}
+.innerDiv {
+  width: max-content;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnForget{
+  text-decoration: none;
+}
+
